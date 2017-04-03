@@ -40,3 +40,26 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 "# mylaravel"  git init git add README.md git commit -m "first commit" git remote add origin https://github.com/l0oktaan/mylaravel.git git push -u origin master
 "# mylaravel" 
+
+Install Laravel with Composer
+$composer create-project laravel/laravel:v.v.vv --prefer-dist ddddd
+//v.v.vv composer latest version and ddddd your directory project
+||
+=====/app/ core code of your app
+||
+=====/boostrap/ File to boostrap framework and configure autoloading
+||
+=====/config/  Configuration files
+||
+=====/database/  Your database migration and seeds
+||
+=====/public/  Front controller, CSS, JavaScript, Images and public files
+||
+=====/resources/ Your views, raw assets(LESS, SASS, CoffeScript) and language files
+||
+=====/storage/  File-base sessions, file caches, compiled blade template
+||
+=====/tests/  Your automates tests
+||
+=====/vendor/  Your composer dependencies
+
